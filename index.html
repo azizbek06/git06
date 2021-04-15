@@ -1,124 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="main.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mabile.css">
 </head>
-<body>
-    <nav>
-        <div class="logo"> <img src="img/Rectangle 4.png" alt=""></div>
-        <div class="sorch">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#contactus">Contact</a>
 
+<body>
+    <nav class="navbar">
+        <div class="your-logo"><span class="nav-logo"><svg id="air-2-5-logo" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 102.4 30" width="106" height="30" role="img" aria-hidden="true">
+                    <path fill="fill: #494949"
+                        d="M65.4 6.9c-4.5 0-8.1 3.6-8.1 8.1s3.6 8.1 8.1 8.1 8.1-3.6 8.1-8.1-3.6-8.1-8.1-8.1zm0 12.9c-2.6 0-4.8-2.1-4.8-4.8s2.1-4.8 4.8-4.8c2.6 0 4.8 2.1 4.8 4.7 0 2.7-2.1 4.9-4.8 4.9zM83.4 10.8c-2.3 0-4.2 1.9-4.2 4.2v7.7h-3.5V7.4h3.5v2.4c1-1.5 2.7-2.4 4.5-2.4h1.1v3.4h-1.4zM48.2 7.4L50.8 18l2.9-10.6h3.4l-4.4 15.3h-3.5L46.5 12l-2.7 10.7h-3.5L35.9 7.4h3.4L42.2 18l2.7-10.6zM95 14.4c2.6-1.4 4.1-4.1 4.1-7.1h-3.4c0 2.6-2.1 4.6-4.6 4.6h-.5V0h-3.5v22.7h3.5v-7.2h.4c.4 0 .8.2 1 .5l4.9 6.7h4.2L95 14.4z"
+                        class="logo-work"></path>
+                    <path fill="#6fda44"
+                        d="M27.6 6.9c-3.8 0-6.7 2.5-7.9 6.5-1.8-2.7-3.1-5.7-4-8.8h-4.1v10.6c0 2.1-1.7 3.8-3.8 3.8S4 17.3 4 15.2V4.7H0v10.6c0 4.3 3.5 7.9 7.9 7.9s7.9-3.5 7.9-7.9v-1.8c.8 1.7 1.8 3.3 2.9 4.8L16.2 30h4.2l1.8-8.5c1.6 1.1 3.5 1.7 5.5 1.7 4.5 0 8.1-3.6 8.1-8.1-.1-4.5-3.7-8.2-8.2-8.2zm0 12.2c-1.7-.1-3.3-.7-4.6-1.8l.3-1.6v-.1c.3-1.7 1.3-4.6 4.2-4.6 2.2-.1 4 1.7 4.1 3.9.1 2.2-1.7 4-3.9 4.1l-.1.1z">
+                    </path>
+                </svg></span></div>
+        <div class="search">
+            <a href="#">Find Talent </a>
+
+            <a href="#">Find Work </a>
+            <a href="#">why Upwork </a>
+            <a href="#">Enterprise </a>
         </div>
         <div class="login">
             <!-- <label for="name"></label> -->
-            <input placeholder="Your Email" id="form-home_username" class="nav1" type="text" value="">
-            <button type="button" class="navbtn" >Subsribe</button>
-          </div>
+            <input placeholder="search" id="form-home_username" class="nav1" type="text" value="">
+            <button type="button" class="navbtn1">Log in</button>
+            <button type="button" class="navbtn2">Sign up</button>
         </div>
-     </nav>
-     <div class="content">
-         <div class="info"><img src="img/Frame 18.svg" alt=""></div>
-         <div class="textdecoration">
-             <h1>We focus on 
-                ergonomics </h1>
-            <h4>Most calendars are designed for teams. 
-                    Slate is designed for freelancers</h4>
-            <button type="button" class="button" > Try For Free</button>
-        
-                </div>
-     </div>
-     <div class="DesktopFEATURElight">
-         <div class="text">
-             <h3>At your fingertips</h3>
-             <h2>Features</h2>
-             <h4>Most calendars are designed for teams. 
-                Slate is designed for freelancers</h4>
-                <div class="content1">
-                    <img src="img/@ feature-style-1.png" alt="">
-                    <img src="img/@ feature-style-2.png" alt="">
-                    <img src="img/@ feature-style-3.png" alt="">
+    </nav>
+    <nav class="navbar2">
+        <div class="search2">
+            <a href="#"> Development & IT</a>
+            <a href="#"> Desigin & Creative</a>
+            <a href="#"> Seles & Marketing</a>
+            <a href="#"> Writing & Translation</a>
+            <a href="#"> Admin & Customer Support</a>
+            <a href="#"> Finance & Accounting</a>
+        </div>
+    </nav>
 
-                </div>
-        
+    <div class="herader">
+        <div class="text">
+            <h1>The world’s work
+                marketplace</h1>
+            <p>Engage the largest network of trusted
+                independent professionals to unlock
+                the full potential of your business.
+
+            </p>
+
+            <div class="btn">
+                <button type="button" class="textbtn">Find Work</button>
+                <button type="button" class="textbtn2">Find Work</button>
             </div>
+
+        </div>
+        <div class="imges">
+            <img src="https://www.upwork.com/static/assets/Brontes/531255b/img/susan-desktop.86a7b2d.jpg"
+                alt="Susan B. Director of Product" class="firstimg">
+            <img src="https://www.upwork.com/static/assets/Brontes/531255b/img/john-desktop.3298528.jpg"
+                alt="John K. Product Designer" class="secondimg">
+        </div>
+        <div class="logo-holder mt-md-50 mt-xl-80"><img data-qa="microsoft-logo"
+                src="https://www.upwork.com/static/assets/Brontes/531255b/img/microsoft.94fec27.svg"
+                alt="Microsoft worked with Upwork to collaborate on an integrated solution that helps enterprises work with freelancers at scale powered by Microsoft 365 and Upwork Enterprise."
+                class="vs-height-100 mr-30 mr-lg-50"><img data-qa="airbnb-logo"
+                src="https://www.upwork.com/static/assets/Brontes/531255b/img/airbnb.0db5415.svg"
+                alt="Airbnb works with Upwork to post more than 10,000 projects on Upwork."
+                class="vs-height-100 mr-30 mr-lg-50"><img data-qa="ge-logo"
+                src="https://www.upwork.com/static/assets/Brontes/531255b/img/ge.5a23edc.svg"
+                alt="GE saves time and money to post more jobs on Upwork than any other platform."
+                class="vs-height-100 mr-30 mr-lg-50"><img data-qa="godaddy-logo"
+                src="https://www.upwork.com/static/assets/Brontes/531255b/img/godaddy.d9459f1.svg"
+                alt="GoDaddy leverages independent web designers to generate revenue."
+                class="vs-height-100 mr-30 mr-lg-50"><img data-qa="bissell-logo"
+                src="https://www.upwork.com/static/assets/Brontes/531255b/img/bissell.3861a37.svg"
+                alt="Bissell works with Upwork as a staffing alternative to their hiring process."
+                class="vs-height-100 mr-30 mr-lg-50"></div>
+    </div>
+
+    <svg class="anime" width="44" height="21" viewBox="0 0 44 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 2L22 18L42 2" stroke="#6FDA44" stroke-width="4" stroke-linecap="round"></path>
+    </svg>
+    <div class="CLIENTS">
+        <div class="text_clients">
+            <h4>FOR CLIENTS</h4>
+            <h1>Find talent your way</h1>
+            <p>Develop trusted relationships and build your own virtual talent bench for quick project turnarounds or
+                big transformations.</p>
+        </div>
+        <div class="box">
+            <div class="box_clients">
+                <p>Post a job and <br>
+                    hira a pro</p>
+                <h5>Talent Marketplace</h5>
+                <div data-qa="arrow" class="card-arrow vs-bg-up-green">
+                    <!-- <div class="arrow-line vs-bg-white"></div>
+                <div class="arrow-right"></div> -->
+
+                    <div class="strelka"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg> </div>
+                </div>
+            </div>
+            <div class="box_clients">
+                <p>Post a job and <br>
+                    hira a pro</p>
+                <h5>Talent Marketplace</h5>
+                <div data-qa="arrow" class="card-arrow vs-bg-up-green">
+                    <!-- <div class="arrow-line vs-bg-white"></div>
+                <div class="arrow-right"></div> -->
+
+                    <div class="strelka"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg> </div>
+                </div>
+            </div>
+            <div class="box_clients">
+                <p>Post a job and <br>
+                    hira a pro</p>
+                <h5>Talent Marketplace</h5>
+                <div data-qa="arrow" class="card-arrow vs-bg-up-green">
+                    <!-- <div class="arrow-line vs-bg-white"></div>
+                <div class="arrow-right"></div> -->
+
+                    <div class="strelka"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg> </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h6>Need a solution for large organizations? <span>Enterprise Suite has you covered.</span> </h6>
+
+
+    </div>
+
+
+    <!-- FOR TALENT -->
+    <div class="CLIENTS">
+        <div class="text_clients">
+            <h4>FOR TALENT</h4>
+            <h1>Work your way</h1>
+            <p>Choose how you work, and unlock 123 340 new opportunities to earn.</p>
+        </div>
+        <div class="box">
+            <div class="box_clients">
+                <p>Find a project to
+                    work on</p>
+                <h5>Talent Marketplace</h5>
+                <div data-qa="arrow" class="card-arrow vs-bg-up-green">
+                    <!-- <div class="arrow-line vs-bg-white"></div>
+            <div class="arrow-right"></div> -->
+
+                    <div class="strelka"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg> </div>
+                </div>
+            </div>
+            <div class="box_clients">
+                <p>Sell a predefinede<br>
+                    project</p>
+                <h5>project Catalog</h5>
+                <div data-qa="arrow" class="card-arrow vs-bg-up-green">
+                    <!-- <div class="arrow-line vs-bg-white"></div>
+            <div class="arrow-right"></div> -->
+
+                    <div class="strelka"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg> </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h6>WHAT THEY SAY</h6>
+
+    </div>
+
+
+
+
+    <!-- info-main -->
+    <div class="info">
+        <div class="text-info">
+            <img src="https://www.upwork.com/static/assets/Brontes/531255b/img/cara.f9078b9.jpg"class="vs-width-100 ls-is-cached lazyloaded">
+            <p>“The freelance talent that I’m able to access creates productivity in a way that I don’t think any of us
+                thought possible.”</p>
+            <p class="img-name text-lg m-0"><strong class="d-block">Cara Bedford </strong><span>Director Strategic
+                    Marketing, CompuVision</span></p>
+        </div>
+        <div class="text-info-2">
+            <img src="https://www.upwork.com/static/assets/Brontes/531255b/img/sam.670fec0.jpg" class="vs-width-100 ls-is-cached lazyloaded">
+            <p>“The freelance talent that I’m able to access creates productivity in a way that I don’t think any of us
+                thought possible.”</p>
+            <p class="img-name text-lg m-0"><strong class="d-block">Cara Bedford </strong><span>Director Strategic
+                    Marketing, CompuVision</span></p>
+        </div>
+        <!-- <div class="container-visitor"><h4 class="vs-color-midnight-blue text-center m-0"><div class="rating-stars d-inline-block"><span data-qa="avg-rating" class="text-sm vs-font-black mr-5 mr-lg-10">4.6 / 5</span> <div class="up-rating" data-qa="rating-stars" read-only="true" style="height: 18px; --star-size:15px; --star-padding:1px;"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="d-none"><symbol id="up-rs" viewBox="0 0 14 14"><polygon points="7,0.5 9,4.8 13.5,5.5 10.2,8.8 11,13.5 7,11.3 3,13.5 3.8,8.8 0.5,5.5 5,4.8"></polygon></symbol></svg> <div class="up-rating-foreground" style="width: 77px;"><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg></div> <div class="up-rating-background"><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg><svg aria-hidden="true"><use xlink:href="#up-rs"></use></svg> <span class="sr-only">Rating is 4.6 out of 5.</span></div></div> <strong data-qa="count" class="text-sm text-wide text-uppercase mx-lg-5">(294&nbsp;589 reviews)</strong> <figure class="d-inline"><img src="https://www.upwork.com/static/assets/Brontes/531255b/img/clearly-rated.e51d653.svg" data-qa="logo" data-src="https://www.upwork.com/static/assets/Brontes/531255b/img/clearly-rated.e51d653.svg" alt="Clearly Rated Logo" class="logo ls-is-cached lazyloaded"></figure></div></h4></div>
+    </div> -->
+   
+  <div class="skill">
+      <ul>
+          <li>Data Entry Specialists</li>
+          <li>video Editoris</li>
+          <li>Data Analyst</li>
+          <li>Shopify Developer</li>
+          <li>Ruby on Rails Developer</li>
+          
          
-     </div>
-     <div class="DesktopFEATURElight">
-         <div class="container1">
-             <h2>Lightning fast 
-                prototyping </h2>
-            <h4>Most calendars are designed for teams. 
-                    Slate is designed for freelancers</h4>
-             <button type="button" class="button" > Try For Free</button>
-            <img src="img/container.png" alt="">
+      </ul>
+      <ul>
+        <li>Android Developer</li>
+        <li>Bookkeeper</li>
+        <li>Contact Writer</li>
+        <li>copywriter</li>
+        <li>Database Adminstrator</li>
+        
        
-        </div>
-     </div>
-     <div class="lightCTA">
-        <div class="text2">
-            <h3>At your fingertips</h3>
-            <h2>At your fingertips</h2>
-            <!-- <img src="img/@ mobile-newsletter.png" alt="topilmadi"> -->
-        </div> 
-        <div class="form-group">
-            <h3>Subscribe to our Newsletter</h3>
-            <h4>Available exclusivery on Figmaland</h4>
-            <label for="name"></label>
-            <input placeholder="Your Email" id="form-home_username" class="form-group1" type="text" value="">
-          </div>
-          <button type="button" class="btn1" >Subscribe</button>
-     </div>
-     <div class="PARTNERlight3">
-        <div class="textcontent">
-            <h2>Partners</h2>
-            <h4>Most calendars are designed for teams. <br>
-                Slate is designed for freelancers</h4>
+    </ul>
+    <ul>
+        <li>Data scientist</li>
+        <li>Frot-end Developer</li>
+        <a class="seemore" href="#">See more</a>
+        
        
-            </div>
-        <img src="img/@ partner-style-3.png" alt="">
-        <img src="img/@ partner-style-3.png" alt="">
-        <img src="img/@ partner-style-3.png" alt="">
-<br>
-<img src="img/@ partner-style-3.png" alt="">
-<img src="img/@ partner-style-3.png" alt="">
-<img src="img/@ partner-style-3.png" alt="">
-<button type="button" class="button1"> Try For Free</button>
+    </ul>
+    <button type="button" class="btn-skill">Browse all</button>
+  </div>
+  <!-- footer -->
+   <footer>
+       <div class="boxt-foot">
+           <div class="footer-info">
+               <ul>
+                    <h3>For CLIENTS</h3>
+                    <li>How to Hire</li>
+                    <li>HTalent Marketplace</li>
+                    <li>project catalog</li>
+                    <li>Talant Scount</li>
+                    <li>Enterprise</li>
+                    <li>Payroll Services</li>
+                    <li>Direct Contracts</li>
+                    <li>Hire Worldwide</li>
+                    <li>Hire in the USA</li>
+               </ul>
+               <ul>
+                <h3>For TALENT</h3>
+                <li>How to Find Work</li>
+                <li>Direct Contracts</li>
+                <li>Find freelance jobs Worldwide</li>
+                <li>Find freelance jobs in the USA</li>
+                
+           </ul>
+           <ul>
+            <h3>RESOURCES</h3>
+            <li>Help & Support</li>
+            <li>Success Stories</li>
+            <li>Upwork Reviews</li>
+            <li>Resources</li>
+            <li>Blog</li>
+            <li>Community</li>
+        
+       </ul>
+        <ul>
+            <h3>COMPANY</h3>
+            <li>About Us</li>
+            <li>Leadership</li>
+            <li>Investor Relations</li>
+            <li>Careers</li>
+            <li>Upwork Foundation</li>
+            <li>Press</li>
+            <li>Contact Us</li>
+            <li>Trust, Safety & Security</li>
+            <li>UK Modern Slavery Statement</li>
+    </ul>
+           </div>
+           <hr>
+           <div class="follow">
+            <span class="follow-text">Follow us </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+           </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+           </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+             <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+           </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+           </svg>
+           </div>
+           
+         <hr>
+         <h4 class="inc">© 2015 - 2021 Upwork® Global Inc.</h4>
+        
 
-     </div>
-    <footer id="contactus">
-        <div class="footertext">
-            <h2>Contact Us</h2>
-            <h4>Most calendars are designed for teams. <br>
-                Slate is designed for freelancers</h4>
-        </div>
-        <div class="footermain">
-            <div  class="footerinput">
-                <input placeholder="Your name" id="form-home_username" class="footer" type="text" value="">
-                <input placeholder="Your Email" id="form-home_username" class="footer2" type="text" value="">
-                <input placeholder="Your Message" id="form-home_username" class="footer3" type="text" value="">
-                <button type="button" class="footerbtn" >Subsribe</button>
-    
-            </div>
-        <div class="footerinfo">
-            <h5>6386 Spring St undefined Anchorage, 
-                Georgia 12473 United States</h5>
-            <h5>(843) 555-0130</h5>    
-            <h5>willie.jennings@example.com</h5>
-        </div>    
-        </div>
-    </footer>
- 
+       </div>
+   </footer>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script> -->
 </body>
+
 </html>
